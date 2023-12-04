@@ -1,0 +1,28 @@
+.collection {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto;
+}
+
+.paginate {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.paginate-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(202, 190, 190);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.paginate-item.selected {
+  background-color: rgb(202, 190, 190);
+  color: #ffffff;
+}

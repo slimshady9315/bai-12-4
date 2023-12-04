@@ -1,0 +1,24 @@
+.cart-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item .product {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.cart-item .product .product-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.cart-item .product .product-info {
+  padding-top: 10px;
+}
+
+.cart-item .product .product-info .product-title {
+  font-weight: 700;
+}

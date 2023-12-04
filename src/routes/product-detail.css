@@ -1,0 +1,9 @@
+.product-detail {
+  display: flex;
+  gap: 20px;
+}
+
+.product-detail .product-images,
+.product-detail .product-info {
+  width: calc(50% - 20px);
+}
